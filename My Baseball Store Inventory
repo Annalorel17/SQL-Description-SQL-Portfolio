@@ -1,0 +1,24 @@
+Create TABLE inventory(ID Integer Primary Key, Name TEXT,Unit_Price Integer, Quanity Integer,Market_Price Integer);
+Insert INTO inventory VALUES
+(1,"Baseball_Mitt",5,10,10),
+(2,"Batting_Gloves",6,10,12),
+(3,"Baseball",3,15,6),
+(4,"Batting_Helmet",8,20,16),
+(5,"Bat",10,20,20),
+(6,"Soft_Balls",3,15,6),
+(7,"Catcher_Mitt",6,10,12),
+(8,"Catcher_Mask",8,10,16),
+(9,"Catcher_Gaurd",10,10,20),
+(10,"BaseBall_Bag",11,15,22),
+(11,"Unifornm_Shirt",5,30,10),
+(12,"Uniform_Pants",4,30,8),
+(13,"Tee_Stand",3,10,6),
+(14,"Bases",2,10,4),
+(15,"Cones",2,15,4);
+
+Select * from inventory;
+
+Select * from inventory where Market_Price >5;
+
+Select SUM(Quanity) from Inventory;
+
